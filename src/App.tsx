@@ -1,25 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useColorModeValue, Flex, useColorMode } from '@chakra-ui/react';
+
+import { Header } from './components/Header';
+import { Main } from './components/Main/Main';
 
 function App() {
+  const bg = useColorModeValue('#fff', '#000');
+
+  const { colorMode } = useColorMode();
+
+    const body = document.querySelector('body')!
+    colorMode === "light" ? body.style.backgroundColor="#fff" : body.style.backgroundColor="#000";
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Flex overflowX="hidden" bg={bg} h="100%" minH="100vh">
+      <Header />
+      <Main />
+    </Flex>
   );
 }
 
