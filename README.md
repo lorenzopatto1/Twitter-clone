@@ -44,3 +44,33 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Timeline Light
+
+![image](https://user-images.githubusercontent.com/81483428/210629050-cdb27baa-de66-490a-a79f-51c7f4909482.png)
+
+## Timeline Dark
+
+![image](https://user-images.githubusercontent.com/81483428/210628339-b9ed41fc-c5b1-400a-b754-8dace55187ba.png)
+
+## Infos
+
+![image](https://user-images.githubusercontent.com/81483428/210628499-fb2ac8e3-b605-4693-a37e-d24a41c9e8e5.png) ![image](https://user-images.githubusercontent.com/81483428/210628536-011c2e05-2e99-4e7e-aa45-00b3cc880221.png)
+
+## Tweet with infos
+
+![image](https://user-images.githubusercontent.com/81483428/210628695-d1c16466-d54d-4040-a451-307da059a69c.png)
+
+## Trying tweet without infos
+
+![image](https://user-images.githubusercontent.com/81483428/210628827-7e30e938-611e-4c6a-8b4b-c1aa9613a05b.png)
+
+## Switch theme
+
+![image](https://user-images.githubusercontent.com/81483428/210628954-43449570-4481-4105-88ed-88a7ea985b18.png)
+
+
+
+
+
+
